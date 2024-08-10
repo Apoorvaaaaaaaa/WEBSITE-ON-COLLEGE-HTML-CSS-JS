@@ -1,0 +1,131 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                     </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>BHARATI VIDYAPEETH UIVERSITY</h1>
+            <p>Bharati has World class campuses and technical infrastructure spanning across 7 cities with on-campus residential accommodation with handy facilities</p>
+            <a href="contact.html" class="hero-btn">Visit Us to Know More</a>
+        </div>
+    </section>
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>We have various courses available for you all</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>ENGINEERING</h3>
+                <p>We have various branches such as ECE,CSE,IT,CSBS and many more.</p>
+            </div>
+            <div class="course-col">
+                <h3>Medical</h3>
+                <p>We have various branches such as MBBS,AYURVEDA,HOMEOPATHY and many more.</p>
+            </div>
+            <div class="course-col">
+                <h3>EXTRA</h3>
+                <p>We have more courses like PHYSICAL EDUCATION, FINE ARTS, PHOTOGRAPHY and many more.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- campus ---------->
+    
+    <section class="campus">
+        <h1>Our campus</h1>
+        <p>We have more beautiful campuses around india</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/london.png">
+                    <div class="layer">
+                        <h3>DELHI</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/newyork.png">
+                    <div class="layer">
+                        <h3>NAVI MUMBAI</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/washington.png">
+                    <div class="layer">
+                        <h3>SANGLI</h3>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+
+<section class="cta">
+    
+       <h1>Enroll For Our Various Online Courses<br>Anywhere From India</h1>
+    
+    
+</section>    
+ 
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>During the last 59 years Bharati Vidyapeeth has made astonishing strides in the field of education, particularly, higher and professional education. Today Bharati Vidyapeeth conducts more than 156 educational units of various kinds’ right from pre-primary schools to postgraduate institutions and a full fledged professional university (BVDU).
+          Today, Bharati Vidyapeeth has its major campuses in New Delhi, Navi Mumbai, Pune, Solapur, Kolhapur, Sangli, Karad, Satara, and Panchgani and at quite a few other places. Bharati Vidyapeeth is probably the only organization from Maharashtra having its campus in the capital city of India. It is not in the urban areas alone that Bharati Vidyapeeth has started its institutions. Its schools and colleges have dotted rural areas and even the remotest tribal and coastal areas of Maharashtra.
+         Bharati Vidyapeeth runs more than 78 schools and 60 institutions of higher education, including those of professional education. Among these are colleges of Medicine, Dentistry, Ayurved, Homeopathy, Nursing, Pharmacy, Law, Biotechnology, Engineering, Management, Hotel Management & Catering Technology, Environment Science, Agriculture, Physical education and more. With a view to promote research activities and to create a research culture on its campuses, Bharati Vidyapeeth has established five specialized research institutes in the areas of Health Related Sciences, Biotechnology, Information Technology, Applied Chemistry and Social Sciences.
+        Dr. Patangrao Kadam subsequently expanded the scope of his activities and started many other institutions as its sister concerns. They include cooperative units of various kinds, several trusts, quite a few service institutions and even an orphanage..</p>
+        <div class="icons">
+            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+        <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="footer-link"><p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p></a>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
+
+
+
+
+
+
+

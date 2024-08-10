@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>ENGINEERING,MEDICAL,FINE ARTS,HOTEL MANAGEMENT, PHYSICAL EDUCATION</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>UNDER GRADUATE</h3>
+                <p>B-TECH OFFERS COURSES LIKE CSE, ECE, IT, CSBS and many more.</p>
+            </div>
+            <div class="course-col">
+                <h3>POST GRADUATE</h3>
+                <p>Offer M-TECH COURSES</p>
+            </div>
+            <div class="course-col">
+                <h3>MASTERS</h3>
+                <p>OFFERS MASTERS IN MEDICAL</p>
+            </div>
+        </div>
+    </section>
+    
+    
+   
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    

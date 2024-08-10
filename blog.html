@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/certificate.jpg">
+        <h2>OUR RANKING</h2>
+         
+        <P>The National Institutional Ranking Framework (NIRF) ranked Bharati Vidyapeeth 76th among universities for 2024 The university's constituent engineering college, Bharati Vidyapeeth Deemed University College of Engineering, Pune was ranked 131 in India by the NIRF engineering ranking for 2023
+          Bharati Vidyapeeth's College of Pharmacy was ranked 17 in India by the National Institutional Ranking Framework (NIRF) pharmacy ranking in 2022</P>
+
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>NOTABLE ALUMNI</h3>
+            <div>
+                <span>Shaheer Sheikh</span>
+            </div>
+            <div>
+                <span>Saurabh Bharadwaj</span>
+            </div>
+            <div>
+                <span>Pravin Tarde</span>
+            <div>
+
+            </div>
+           
+        </div> 
+    
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Within a very short period of fourteen years, Bharati Vidyapeeth (Deemed to be University) has established its credentials and reputation as a leading private University in the country. Taking advantage of the autonomy which it has and the flexibility that it can offer, this University has introduced numerous innovative academic programmes and activities.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
